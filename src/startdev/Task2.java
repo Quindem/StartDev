@@ -15,10 +15,10 @@ import java.util.Scanner;
 public class Task2 {
     public void run(){
         System.out.println("----- Задача 2 ------");
-        System.out.println("Загадано число от 5 до 10: ");
+        System.out.println("Загадано число: от 0 до 10 ");
         System.out.println("Отгадай: ");
         Random random = new Random();
-        int number1 = random.nextInt(10+5-5)+0;
+        int number1 = random.nextInt(10-0+1)+0;
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         if (number1 == number){
